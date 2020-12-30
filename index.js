@@ -49,7 +49,7 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    A187: '🤖UW-BC BOT', // TOBAT SU ASU
+    A187: '🤖UW-BC BOT🤖', // TOBAT SU ASU
     instagram: 'https://instagram.com/Uwiw_Bocah', // INFO JANGAN DI UBAH
     nomer: 'wa.me/6287718593665', // INFO SU JNGAN DI UBAH
     youtube: 'BELUM ADA', // KINTIL
