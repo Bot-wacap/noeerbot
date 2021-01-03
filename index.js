@@ -38,7 +38,7 @@ const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN?
             + 'VERSION:3.0\n' // NGAPAIN LAGI KALO GA MAU NUMPANG NAMA DOANG XIXIXIXI
             + 'FN:CO Uwiw_Bocah\n' // MENDING LU TOBAT SU!
             + 'ORG:Creator Uwiw_Bocah;\n' // KASIH CREDITS GUA SU!!!
-            + 'TEL;type=CELL;type=VOICE;waid=6287718593665:+62 877-1859-3665\n' // JANGAN KEK BABI SU
+            + 'TEL;type=CELL;type=VOICE;waid=6285691842186:+62 856-9184-2186\n' // JANGAN KEK BABI SU
             + 'END:VCARD' // ARIS187 ID
 prefix = '!'
 const speed = require('performance-now')         
@@ -51,7 +51,7 @@ const bulan = arrayBulan[moment().format('MM') - 1]
 const config = {
     A187: '🤖UW-BC BOT🤖', // TOBAT SU ASU
     instagram: 'https://instagram.com/Uwiw_Bocah', // INFO JANGAN DI UBAH
-    nomer: 'wa.me/6287718593665', // INFO SU JNGAN DI UBAH
+    nomer: 'wa.me/6285691842186', // INFO SU JNGAN DI UBAH
     youtube: 'BELUM ADA', // KINTIL
     whatsapp: 'https://chat.whatsapp.com/E6TvJFpnPgL2HJ3LaFWNPC', // BABI
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
@@ -170,7 +170,7 @@ client.on('group-participants-update', async (anu) => {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6287718593665@s.whatsapp.net"] // ganti nomer lu
+			const ownerNumber = ["6285691842186@s.whatsapp.net"] // ganti nomer lu
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
